@@ -1,0 +1,29 @@
+.place__text {
+    margin: 0;
+    padding-bottom: 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    text-align: left;
+}
+
+.place__text:nth-last-child(1) {
+    padding: 0;
+}
+
+@media all and (max-width: 768px) {
+    .place__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 163%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .place__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 163%;
+    }
+}

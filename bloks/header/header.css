@@ -1,0 +1,37 @@
+.header {
+    max-width: 1184px;
+    min-height: 52px;
+    background-color: rgba(42, 44, 47, 1);
+    padding: 28px 48px 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        padding: 28px 24px 0 24px;
+    }
+}
+
+@media all and (max-width: 468px) {
+    .header {
+        max-width: 420px;
+        padding: 28px 28px 0 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 16px 16px 0 16px;
+        min-height: 42px;
+    }
+}
