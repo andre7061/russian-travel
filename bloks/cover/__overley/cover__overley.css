@@ -26,7 +26,7 @@
     z-index: -1;
 }
 
-.cover__overley:hover {
+.cover__overley:hover::before {
     opacity: 0.8;
 }
 

@@ -12,10 +12,6 @@
     }
 }
 
-@media all and (max-width: 768px) {
-    .place__website {}
-}
-
 @media all and (max-width: 710px) {
     .place__website {
         align-self: start;
